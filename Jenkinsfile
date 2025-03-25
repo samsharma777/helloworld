@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = "hello-world:latest"
-        NAMESPACE = "default"
+        NAMESPACE = "jenkins"
         KUBE_CONTEXT = "minikube"
     }
 
