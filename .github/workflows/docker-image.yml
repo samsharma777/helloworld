@@ -46,6 +46,6 @@ jobs:
       - name: Generate artifact attestation
         uses: actions/attest-build-provenance@v2
         with:
-          subject-name: index.docker.io/samsharma202247/dotnet-app
+          subject-name: index.docker.io/samsharma202247/dotnet-app/hellow-world.1.0
           subject-digest: ${{ steps.push.outputs.digest }}
           push-to-registry: true
